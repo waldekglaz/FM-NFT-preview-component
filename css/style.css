@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  background-color: #0d192b;
+  color: white;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card {
+  background-color: #14253d;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  max-width: 300px;
+  margin-bottom: 2rem;
+}
+
+.card__img {
+  width: 100%;
+  border-radius: 1rem;
+  margin-bottom: 1.75rem;
+}
+
+.card__title {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.card__title:hover {
+  color: #00fff7;
+}
+
+.card__txt {
+  line-height: 1.6;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.card__txt--grey {
+  color: #8bacda;
+}
+
+.card__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1rem;
+}
+
+.card__balance,
+.card__deadline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card__balance__currency__icon,
+.card__deadline__icon {
+  margin-right: 0.25rem;
+}
+
+.card__balance--accent {
+  color: #00fff7;
+}
+
+.card__deadline--grey {
+  color: #8bacda;
+}
+
+.card__divider {
+  border-color: #2f415b;
+  margin-bottom: 1rem;
+}
+
+.card__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.card__footer__img {
+  width: 12%;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-right: 1.5rem;
+}
+
+.card__footer__author {
+  color: white;
+  text-decoration: none;
+}
+
+.card__footer__author:hover {
+  color: #00fff7;
+}
+
+.attribution {
+  text-align: center;
+  font-size: 10px;
+}
+
+.attribution__link--grey {
+  color: #8bacda;
+}
+
+.attribution__link--grey:hover {
+  color: #00fff7;
+}
+/*# sourceMappingURL=style.css.map */

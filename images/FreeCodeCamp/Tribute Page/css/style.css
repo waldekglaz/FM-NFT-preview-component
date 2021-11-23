@@ -1,0 +1,38 @@
+#main {
+  text-align: center;
+}
+
+h1 {
+  padding: 1rem;
+  background-color: #ddd;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+}
+
+#img-caption {
+  padding: 18px;
+  font-size: 1.2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding-top: 12px;
+  font-size: 18px;
+}
+
+p {
+  margin-top: 40px;
+}
+
+p a {
+  background-color: #ddd;
+}
+/*# sourceMappingURL=style.css.map */
